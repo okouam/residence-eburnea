@@ -1,0 +1,143 @@
+
+en:
+    navigation:
+        todo: Things to do
+        home: Home
+        studios: Studios
+        apartments: Apartments
+        contact: Contact us
+        services: Services
+    welcome:
+        founder_description: Founder of Residence Eburnea
+        founder_name: Madame Kouame
+        testimonial: |
+            &ldquo;This place is great-- almost afraid to list it. small hotel in very chill neighborhood close to NGOs in Cocody.
+            Has a pool and restaurant. The staff is very friendly and you'll really feel at home here.&rdquo;
+        title: Welcome
+        body: |
+            <p>For your stay in Abidjan in a business or private setting, for short stays or long stays, alone or with your family,
+            choose the freedom, comfort and coziness of a clean and welcoming residence.</p>
+            <p>The Résidence EBURNEA is located 15 minutes from the center of town in the residential area of Deux Plateaux
+            7ème tranche and two steps from the Latrille boulevard close to shops and restaurants.</p>
+            <p>Your peace of mind is important to us, and we promise you a personalized welcome and will make every effort
+            to offer you a most agreeable stay.</p>
+    studios:
+        title: Our Studios
+        carousel_column: |
+            <p>Les unités décorées avec goût disposent:</p>
+            <ul>
+                <li>d’une cuisine équipée (gazinière avec four, réfrigérateur, vaisselle, etc.. )</li>
+                <li>de salle de bain avec baignoire</li>
+                <li>de toilettes séparées</li>
+                <li>d’un séjour s’ouvrant sur une terrasse privative</li>
+                <li>d’une ligne téléphonique individuelle</li>
+                <li>Système Wifi: internet sans fil gratuit</li>
+                <li>de TV avec des chaines nationales et internationales</li>
+                <li>d’un double sofa convertible en lit</li>
+            </ul>
+        main_text: |
+            <p>Une caution de 100.000 Fcfa pour les studios ou de 150.000 Fcfa pour les appartements est obligatoire afin de confirmer la
+            réservation, celle-ci sera remboursée après état des lieux en fin de séjour. Tarifs dégressifs pour long séjours. Nous acceptons
+            les paiements en espèces ( CFA &amp; Euros) et par carte VISA.</p>
+    apartments:
+        title: Our Apartments
+        carousel_column: |
+            <p>Les unités décorées avec goût disposent:</p>
+            <ul>
+                <li>d’une cuisine équipée (gazinière avec four, réfrigérateur, vaisselle, etc.. )</li>
+                <li>de salle de bain avec baignoire</li>
+                <li>de toilettes séparées</li>
+                <li>d’un séjour s’ouvrant sur une terrasse privative</li>
+                <li>d’une ligne téléphonique individuelle</li>
+                <li>Système Wifi: internet sans fil gratuit</li>
+                <li>de TV avec des chaines nationales et internationales</li>
+                <li>d’un double sofa convertible en lit</li>
+            </ul>
+        main_text: |
+            <p>Une caution de 100.000 Fcfa pour les studios ou de 150.000 Fcfa pour les appartements est obligatoire afin de confirmer la réservation,
+            celle-ci sera remboursée après état des lieux en fin de séjour. Tarifs dégressifs pour long séjours. Nous acceptons les paiements en
+            espèces ( CFA &amp; Euros) et par carte VISA.</p>
+    services:
+        title: Our Services
+        main_column_left: |
+            <p>Notre Résidence Hotelière propose les services suivants:</p>
+            <ul>
+                <li>Nettoyage quotidien de votre appartement ou Studio <br/>(hors cuisine et sauf le Dimanche)</li>
+                <li>Internet Wifi: (Sans fil) gratuit</li>
+                <li>Equipe de sécurité 24 H/24 et surveillance vidéo</li>
+                <li>Salle Internet avec PC à votre disposition</li>
+                <li>Piscine réservée aux résidents</li>
+            </ul>
+        main_column_right: |
+            <p>Certains services nécessitent un supplément.</p>
+            <ul>
+                <li>Blanchisserie - Repassage - Pressing</li>
+                <li>Service de secrétariat</li>
+                <li>Organisation de vos déplacements</li>
+                <li>Billetterie - Réservations de spectacles</li>
+                <li>Location de voitures</li>
+                <li>Excursions</li>
+                <li>Visites guidées de sites touristiques</li>
+            </ul>
+        breakfast_title: PETIT DEJEUNER
+        breakfast_text: |
+            <p>Vous pouvez déguster nos petits déjeuner composés de boissons chaudes accompagnées de pain croustillant, céréales, yaourts, un choix de pâtisserie,
+            confiture, miel, salade de fruits et jus d’orange au bord de la piscine ou en chambre de 7 H à 10 H.</p>
+        lunch_and_dinner_title: DEJEUNER ET DINER
+        lunch_and_dinner_text: |
+            <p>Ouvert de 12 H 00 à 22 H 00, le Restaurant/Bar vous propose des mets européens et des spécialités locales. Vous serez servis dans un cadre chaleureux et
+            une ambiance conviviale en bordure immédiate de la piscine où si vous le souhaitez, nous nous ferons un plaisir de vous servir dans votre appartement.</p>
+            <p>Le « chef » se tient à votre disposition pour la conception conjointe de vos menus si vous le désirez et vous fera découvrir les spécificités de la
+            cuisine Ivoirienne.</p>
+        snack_bar_title: SNACK-BAR
+        snack_bar_text: |
+            <p>Nous vous recommandons nos cocktails maison à savourer dans un cadre agréable et chaleureux.</p>
+        meals_title: RESTAURATION
+        meals_text: |
+            <p>Vous pouvez choisir de cuisiner, de vous faire livrer vos plats préférés ou de vous restaurer dans notre charmant restaurant au bord de la piscine.</p>
+    todo:
+        title: Things To Do
+        swimming_pool_title: La Piscine
+        swimming_pool_text: |
+            Située dans le jardin en face du restaurant/bar, elle vous aidera à vous relaxer tout en profitant des rafraîchissements proposés par le Bar.
+        other_activities_title: Autres Activites
+        other_activities_text: |
+            Vous aurez le choix de vous rendre dans les environs à quelques minutes de la Résidence EBURNEA :
+        other_activities:
+            club_house_caption: Au Club House (Court de Tennis )
+            golf_club_caption: A l’Ivoire Golf club ( Parcours de golf de 9 et 18 trous)
+        tourist_visits_title: VISITES TOURISTIQUES ET EXCURSIONS
+        abidjan:
+            title: Abidjan
+            description: something here
+            zoo_caption: Le zoo d’Abidjan
+            banco_forest_caption: La forêt du banco
+            national_museum_caption: Le musée national
+            contemporary_art_museum_caption: Le musée d’art contemporain
+            theatre_museum_caption: Le musée Théâtre KI-YI
+            museum_of_civilizations_caption: Le musée des civilisations
+            botanical_garden_caption: Le jardin Botanique de Bingerville
+            governor_palace_caption: Le palais du Gouverneur
+            bus_boat_caption: Promenades lagunaires en bateau bus ( Ile Boulay, Baie des milliardaires, Ile aux serpents)
+        grand_bassam:
+            title: GRAND BASSAM ( Environ 35 km d'Abidjan)
+            description: |
+                Première capitale du Pays avec ses belles plages et ses bâtisses coloniales, vous pourrez y découvrir:
+            national_costume_museum_caption: Le musée national du costume
+            art_centres_caption: Les Centres Artisanaux
+        yamoussoukro:
+            title: YAMOUSSOUKRO (Environ 260 Km d'Abidjan)
+            description: Capitale politique, ville futuriste, vous pourrez visiter
+            basilic_caption: La Basilique Notre Dame de la Paix
+            great_schools_caption: Les Grandes Ecoles
+            foundation_caption: La Fondation Houphouet-Boigny
+            lake_caption: Le Lac aux caîmans
+    contact:
+        title: Contact Us
+        form_title: Get in touch
+        map_title: Find us
+        sender_title: Title
+        sender_name: Name
+        sender_message: Message
+        sender_email: Email
+        sender_phone: Mobile Telephone

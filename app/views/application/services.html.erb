@@ -1,0 +1,62 @@
+<style type="text/css">
+
+main ul li {
+ 	margin-top: 20px;
+	font-weight: 300;
+	color: #4A3D33;
+	background: #fff
+}
+
+.flexbox {
+	display: flex
+}
+
+.meals .panel {
+	flex: 1;
+	padding: 20px;
+}
+
+.meals .panel img {
+	border: 2px solid #7CC89D
+}
+
+.divider {
+	border: 1px solid #7CC89D;
+	border-width: 1px;
+	height: 1px;
+	border-bottom-width: 0;
+	margin-bottom: 40px
+}
+
+</style>
+
+<div class="flexbox">
+	<div style="flex: 1"><%= raw I18n.t('services.main_column_left') %></div>
+	<div style="flex: 1; padding-left: 60px"><%= raw I18n.t('services.main_column_right') %></div>
+</div>
+
+<br/>
+
+<div class="divider"></div>
+
+<h2><%= raw I18n.t('services.meals_title') %></h2>
+
+<%= raw I18n.t('services.meals_text') %>
+
+<div class="meals flexbox">
+
+	<div class="panel" style="padding-left: 0">
+		<h3><%= raw I18n.t('services.breakfast_title') %></h3>
+		<img src="/img/services/breakfast.jpg" />
+		<%= raw I18n.t('services.breakfast_text') %>
+		<h3><%= raw I18n.t('services.snack_bar_title') %></h3>
+		<img src="/img/services/cocktail.jpg" />
+		<%= raw I18n.t('services.snack_bar_text') %>
+	</div>
+	<div class="panel">
+		<h3><%= raw I18n.t('services.lunch_and_dinner_title') %></h3>
+		<img src="/img/services/attieke3.jpg" />
+		<%= raw I18n.t('services.lunch_and_dinner_text') %>
+	</div>
+
+</div>

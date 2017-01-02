@@ -1,0 +1,58 @@
+<style type="text/css">
+
+	.carousel img {
+		height: 400px;
+		width: 600px;
+		border: 1px solid #999;
+	}
+
+	.carousel {
+		width: 600px;
+		height: 400px;
+	}
+
+	.amenities ul li {
+	 	margin-bottom: 10px;
+		font-weight: 300;
+		color: #4A3D33;
+		background: #fff
+	}
+
+	.slick-slide
+	{
+	width: 600px;
+	}
+
+</style>
+
+
+<div style="display: flex">
+
+	<div style="flex: 1">
+		<div class="carousel">
+		  <div><img src="/img/studios/carousel_1.jpg" /></div>
+		  <div><img src="/img/studios/carousel_2.jpg" /></div>
+		  <div><img src="/img/studios/carousel_3.jpg" /></div>
+		  <div><img src="/img/studios/carousel_4.jpg" /></div>
+		</div>
+	</div>
+
+	<div class="amenities" style='flex: 1; padding-left: 60px;'><%= raw I18n.t('studios.carousel_column') %></div>
+
+</div>
+
+<%= raw I18n.t('studios.main_text') %>
+
+<br/>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.carousel').slick({
+	  dots: true,
+	  variableWidth: true,
+	  adaptiveHeight: true,
+	  autoplay: true
+  });
+});
+
+</script>

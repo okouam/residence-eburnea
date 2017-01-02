@@ -1,0 +1,144 @@
+<style type="text/css">
+
+main ul li {
+ 	margin-top: 10px;
+	font-weight: 300;
+	color: #4A3D33;
+	background: #fff
+}
+
+.tiles {
+	display: flex;
+	padding-bottom: 40px;
+	margin-top: 30px
+}
+
+.tiles img {
+	margin-bottom: 3px;
+	width: 150px;
+}
+
+.tiles .img-col {
+	min-width: 350px;
+}
+
+.tiles p {
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+.tiles ul {
+	margin-top: 0;
+	padding-top: 0
+}
+
+.divider {
+	border: 1px solid #7CC89D;
+	border-width: 1px;
+	height: 1px;
+	border-bottom-width: 0;
+	margin-bottom: 40px
+}
+
+</style>
+
+<h3><%= raw I18n.t('todo.swimming_pool_title') %></h3>
+
+<p style="margin-bottom: 40px"><%= raw I18n.t('todo.swimming_pool_text') %></p>
+
+<div class="divider"></div>
+
+<h3><%= raw I18n.t('todo.other_activities_title') %></h3>
+
+<div class="tiles">
+	<div class="img-col">
+		<img src="/img/todo/golf-hotel.jpg" />
+		<img src="/img/todo/le-vallon.jpg" />
+	</div>
+	<div>
+		<p><%= raw I18n.t('todo.other_activities_text') %></p>
+		<ul>
+			<li><%= raw I18n.t('todo.other_activities.club_house_caption') %></li>
+			<li><%= raw I18n.t('todo.other_activities.golf_club_caption') %></li>
+		</ul>
+	</div>
+</div>
+
+<div class="divider"></div>
+
+<h3><%= raw I18n.t('todo.abidjan.title') %></h3>
+
+<div class="tiles">
+	<div class="img-col" style="display: flex">
+		<div style="width: 153px">
+			<img src="/img/todo/zoo.jpg" />
+			<img src="/img/todo/banco.jpg" />
+			<img src="/img/todo/botanique-bingerville.jpg" />
+			<img src="/img/todo/ile-boulay.jpg" />
+		</div>
+		<div  style="width: 150px">
+			<img src="/img/todo/museum-civilizations.jpg" />
+			<img src="/img/todo/palais-gouverneur.jpg" />
+			<img src="/img/todo/museum-theatre.jpg" />
+			<img src="/img/todo/art-contemporain.jpg" />
+		</div>
+	</div>
+	<div>
+		<p><%= raw I18n.t('todo.abidjan.description') %></p>
+		<ul>
+		 	<li><%= raw I18n.t('todo.abidjan.zoo_caption') %></li>
+		 	<li><%= raw I18n.t('todo.abidjan.banco_forest_caption') %></li>
+		 	<li><%= raw I18n.t('todo.abidjan.national_museum_caption') %></li>
+		 	<li> <%= raw I18n.t('todo.abidjan.contemporary_art_museum_caption') %></li>
+		 	<li><%= raw I18n.t('todo.abidjan.theatre_museum_caption') %></li>
+		 	<li><%= raw I18n.t('todo.abidjan.museum_of_civilizations_caption') %></li>
+		 	<li><%= raw I18n.t('todo.abidjan.botanical_garden_caption') %></li>
+		 	<li><%= raw I18n.t('todo.abidjan.governor_palace_caption') %></li>
+		 	<li><%= raw I18n.t('todo.abidjan.bus_boat_caption') %></li>
+		</ul>
+	</div>
+</div>
+
+<div class="divider"></div>
+
+<h3><%= raw I18n.t('todo.grand_bassam.title') %></h3>
+
+<div class="tiles">
+	<div class="img-col">
+		<img src="/img/todo/costume-museum.jpg"  height="100"  />
+		<img src="/img/todo/centres-artisanaux.jpg"  height="100"  />
+	</div>
+	<div>
+		<p><%= raw I18n.t('todo.grand_bassam.description') %></p>
+		<ul>
+			<li><%= raw I18n.t('todo.grand_bassam.national_costume_museum_caption') %></li>
+			<li><%= raw I18n.t('todo.grand_bassam.art_centres_caption') %></li>
+		</ul>
+	</div>
+</div>
+
+<div class="divider"></div>
+
+<h3><%= raw I18n.t('todo.yamoussoukro.title') %></h3>
+
+<div class="tiles">
+	<div class="img-col" style="display: flex">
+		<div style="width: 153px">
+			<img src="/img/todo/fondation.jpeg" />
+			<img src="/img/todo/caimans.jpg" height="100" />
+		</div>
+		<div  style="width: 150px">
+			<img src="/img/todo/basilique.jpg" />
+			<img src="/img/todo/grandes-ecoles.jpg" />
+		</div>
+	</div>
+	<div>
+		<p><%= raw I18n.t('todo.yamoussoukro.description') %><</p>
+		<ul>
+			<li><%= raw I18n.t('todo.yamoussoukro.basilic_caption') %></li>
+		    <li><%= raw I18n.t('todo.yamoussoukro.great_schools_caption') %></li>
+		    <li><%= raw I18n.t('todo.yamoussoukro.foundation_caption') %></li>
+		    <li><%= raw I18n.t('todo.yamoussoukro.lake_caption') %></li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,86 @@
+<style type="text/css">
+
+	.footer {
+		padding: 0;
+		padding-bottom: 20px;
+		border-top: 4px solid #7CC89D;
+		background-color: #222;
+		opacity: 1.8; height: 210px;
+		padding-top: 20px
+	}
+
+	.footer * {
+		font-size: 12px
+	}
+
+	.footer > .wrapper {
+		display: flex; min-width: 82em
+	}
+
+	.footer .col-1 {
+		flex: 1;
+		padding-left: 50px;
+		text-align: center
+	}
+
+	.footer .col-1 .copyright {
+		padding: 0
+	}
+
+	.footer .col-1 img {
+		height: 100px
+	}
+
+	.footer .col-2 {
+		flex: 1;
+		padding-left: 55px;
+	}
+
+	.footer .col-3 {
+		flex: 1;
+		padding-left: 25px;
+	}
+
+	.footer .col-4 {
+		flex: 1;
+		padding-left: 70px;
+	}
+
+</style>
+
+<footer class="footer" role="contentinfo">
+	<div class="wrapper">
+		<div class="col-1">
+			<img src="/elephant.png" />
+			<div class="copyright">Copyright &copy; La Résidence EBURNEA 2016</div>
+		</div>
+		<div class="col-2">
+			<ul class="footer__contact">
+				<li>
+					<i class="icon icon-pin"></i>
+					<address>
+					  Abidjan, Côte d'Ivoire<br>
+					  Cocody les II Plateaux<br>
+					  7ème tranche<br>
+					  Rue L173
+					</address>
+				</li>
+			</ul>
+		</div>
+		<div class="col-3">
+			<ul class="footer__contact">
+				<li><i class="icon icon-call"></i><a href="tel:+225225270">(225) 22 52 70</a></li>
+				<li><i class="icon icon-mail"></i><a href="mailto:resebur@aviso.ci">info@residence-eburnea.com</a></li>
+			</ul>
+		</div>
+		<div class="col-4" >
+			<ul>
+			  <li style="margin-left: 0"><a href="/"><i class="icon-home icon"></i><%= raw I18n.t('navigation.home') %></a></li>
+			  <li><a href="/studios" title="<%= raw I18n.t('navigation.studios') %>"><i class="icon-lamp icon"></i><%= raw I18n.t('navigation.studios') %></a></li>
+			  <li> <a href="apartments" title="Apartments"><i class="icon-lamp icon"></i> <%= raw I18n.t('navigation.apartments') %></a></li>
+			  <li><a href="/services" title="Services"><i class="icon-wifi icon"></i> <%= raw I18n.t('navigation.services') %></a></li>
+			  <li><a href="/things-to-do" title="Things to do"><i class="icon-binoculars icon"></i> <%= raw I18n.t('navigation.todo') %></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>

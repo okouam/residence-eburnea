@@ -1,0 +1,21 @@
+<style type="text/css">
+	.navigation {background-color: #222; font-size: 12px; position: absolute; opacity: 0.8; padding: 10px; width: 100% }
+	.navigation ul {padding-bottom: 0; display: inline}
+	.navigation li {display: inline-block; padding: 5px 3px; padding-top: 7px; margin-left: 100px}
+	.navigation li a {color: white}
+	.navigation li a:hover {color: #7CC89D}
+	.navigation li a i {margin-right: 3px; position: relative; top: 2px}
+</style>
+
+<nav class="navigation" id="navigation" role="navigation" style="border-bottom: 2px solid #7CC89D; ">
+	<div style="text-align: center; width: 81em; margin: auto">
+		<ul>
+		  <li style="margin-left: 0"><a href="/"><i class="icon-home icon"></i> <%= raw I18n.t('navigation.home') %></a> </li>
+		  <li><a href="/studios" title="Studios"><i class="icon-lamp icon"></i> <%= raw I18n.t('navigation.studios') %></a></li>
+		  <li> <a href="apartments" title="Apartments"><i class="icon-lamp icon"></i> <%= raw I18n.t('navigation.apartments') %></a></li>
+		  <li><a href="/services" title="Services"><i class="icon-wifi icon"></i> <%= raw I18n.t('navigation.services') %></a></li>
+		  <li><a href="/things-to-do" title="Things to do"><i class="icon-binoculars icon"></i> <%= raw I18n.t('navigation.todo') %> </a></li>
+		  <li><a href="/contact-us" title="Contact Us"><i class="icon-mail icon"></i> <%= raw I18n.t('navigation.contact') %></a></li>
+		</ul>
+	</div>
+</nav>
