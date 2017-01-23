@@ -1,11 +1,11 @@
 fr:
     navigation:
-        todo: Things to do
-        home: Home
-        studios: Studios
-        apartments: Apartments
-        contact: Contact us
-        services: Services
+        todo: Loisirs
+        home: Accueil
+        studios: Nos Studios
+        apartments: Nos Appartements
+        contact: Nous Contacter
+        services: Nos Services
     welcome:
         founder_description: Founder of Residence Eburnea
         founder_name: Madame Kouame
@@ -14,12 +14,7 @@ fr:
             Has a pool and restaurant. The staff is very friendly and you'll really feel at home here.&rdquo;
         title: Welcome
         body: |
-            <p>For your stay in Abidjan in a business or private setting, for short stays or long stays, alone or with your family,
-            choose the freedom, comfort and coziness of a clean and welcoming residence.</p>
-            <p>The Résidence EBURNEA is located 15 minutes from the center of town in the residential area of Deux Plateaux
-            7ème tranche and two steps from the Latrille boulevard close to shops and restaurants.</p>
-            <p>Your peace of mind is important to us, and we promise you a personalized welcome and will make every effort
-            to offer you a most agreeable stay.</p>
+            <p>Pour vos séjours à Abidjan dans un cadre professionel ou prive, de courte ou longue duree, seul ou en famille, choisissez la liberte, le confort et la convivialite d'un espace propre et acceuillant. La Residence Eburnea est située a 15 minutes du centre ville dans le quartier residentiel des Deux Plateaux 7eme tranche et a deux pas du Boulevard Latrille proches des commerces et des restaurants, Soucieux de votre bien etre, nous vous reservons un acceuil personalise et mettrons tout en oeuvre pour vos offrir un sejour des plus agreables.</p>
     studios:
         title: Our Studios
         carousel_column: |
@@ -132,11 +127,11 @@ fr:
             foundation_caption: La Fondation Houphouet-Boigny
             lake_caption: Le Lac aux caîmans
     contact:
-        title: Contact Us
+        title: Nous contacter
         form_title: Get in touch
         map_title: Find us
         sender_title: Title
-        sender_name: Name
-        sender_message: Message
-        sender_email: Email
-        sender_phone: Mobile Telephone
+        sender_name: Votre nom
+        sender_message: Votre message
+        sender_email: Votre adresse mail
+        sender_phone: Votre portable
