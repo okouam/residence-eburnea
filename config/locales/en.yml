@@ -111,10 +111,11 @@ en:
             art_centres_caption: Handicraft Centres
         yamoussoukro:
             title: Yamoussoukro (approx 260 km from Abidjan)
-            description: Must-see sites in the political capital of Cote d'Ivoire:
+            description:
+                Must-see sites in the political capital of Cote d'Ivoire
             basilic_caption: Basilica Our Lady Of Peace
             great_schools_caption: Grandes Ecoles (Universities)
-            foundation_caption: Houphouet-Boigny 
+            foundation_caption: Houphouet-Boigny
             lake_caption: Le Lac aux caîmans
     contact:
         title: Contact Us
