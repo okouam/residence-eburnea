@@ -1,15 +1,23 @@
 Rails.application.routes.draw do
 
-	get '/', to: 'home#index'
+	get '/', to: redirect('/en/')
 
-	get '/studios', to: 'application#studios'
+	post '/contact', to: 'application#send_email'
 
-	get '/services', to: 'application#services'
+	scope "/:locale" do
 
-	get '/apartments', to: 'application#apartments'
+		get '/', to: 'home#index'
 
-	get '/things-to-do', to: 'application#todo'
+		get '/studios', to: 'application#studios'
 
-	get '/contact-us', to: 'application#contact'
+		get '/services', to: 'application#services'
+
+		get '/apartments', to: 'application#apartments'
+
+		get '/things-to-do', to: 'application#todo'
+
+		get '/contact-us', to: 'application#contact'
+	end
+
 
 end

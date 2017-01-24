@@ -16,30 +16,33 @@
 
 <div style="display: flex">
 
+	<% if flash[:sent] %>
+
+	<p><%= flash[:sent] %></p>
+
+	<% else %>
+
 	<div class="contact-form" style="flex: 1; padding-right: 120px">
 		<h3><%= raw I18n.t('contact.form_title') %></h3>
-		<form>
-			<div>
-				<label><%= raw I18n.t('contact.sender_title') %></label>
-				<input type="text" />
-			</div>
+		<form action="/contact" method="post">
 			<div>
 				<label><%= raw I18n.t('contact.sender_name') %></label>
-				<input type="text" />
+				<input type="text" name="sender_name"/>
 			</div>
 			<div>
 				<label><%= raw I18n.t('contact.sender_email') %></label>
-				<input type="text" />
+				<input type="text" name="sender_email"/>
 			</div>
 			<div>
 				<label><%= raw I18n.t('contact.sender_phone') %></label>
-				<input type="text" />
+				<input type="text" name="sender_phone" />
 			</div>
 			<div>
 				<label><%= raw I18n.t('contact.sender_message') %></label>
-				<input type="text" />
+				<textarea name="sender_message"></textarea>
 			</div>
 			<div>
+			<input type="hidden" name="locale" value="<%= params[:locale] %>" />
 			<input type="submit" />
 			</div>
 		</form>
@@ -49,5 +52,7 @@
 		<h3><%= raw I18n.t('contact.map_title') %></h3>
 		<img src="/img/contact/map.jpg" style="border: 1px solid #444"/>
 	</div>
+
+	<% end %>
 
 </div>

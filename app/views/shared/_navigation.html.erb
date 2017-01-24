@@ -1,14 +1,46 @@
-
-
 <nav class="navigation" id="navigation" role="navigation" style="border-bottom: 2px solid #7CC89D; ">
 	<div style="text-align: center; width: 81em; margin: auto">
 		<ul>
-		  <li style="margin-left: 0"><a href="/"><i class="icon-home icon"></i> <%= raw I18n.t('navigation.home') %></a> </li>
-		  <li><a href="/studios" title="Studios"><i class="icon-lamp icon"></i> <%= raw I18n.t('navigation.studios') %></a></li>
-		  <li> <a href="apartments" title="Apartments"><i class="icon-lamp icon"></i> <%= raw I18n.t('navigation.apartments') %></a></li>
-		  <li><a href="/services" title="Services"><i class="icon-wifi icon"></i> <%= raw I18n.t('navigation.services') %></a></li>
-		  <li><a href="/things-to-do" title="Things to do"><i class="icon-binoculars icon"></i> <%= raw I18n.t('navigation.todo') %> </a></li>
-		  <li><a href="/contact-us" title="Contact Us"><i class="icon-mail icon"></i> <%= raw I18n.t('navigation.contact') %></a></li>
+		  	<li style="margin-left: 0">
+			  	<a href="<%= url_for controller: 'home', action: 'index' %>">
+			  		<i class="icon-home icon"></i>
+			  		<%= raw I18n.t('navigation.home') %>
+				</a>
+			</li>
+		  	<li>
+				<a href="<%= url_for controller: 'application', action: 'studios' %>">
+					<i class="icon-lamp icon"></i>
+					<%= raw I18n.t('navigation.studios') %>
+				</a>
+			</li>
+		  	<li>
+				<a href="<%= url_for controller: 'application', action: 'apartments' %>">
+					<i class="icon-lamp icon"></i>
+					<%= raw I18n.t('navigation.apartments') %>
+				</a>
+			</li>
+		  	<li>
+				<a href="<%= url_for controller: 'application', action: 'services' %>">
+					<i class="icon-wifi icon"></i> <%= raw I18n.t('navigation.services') %>
+				</a></li>
+		  	<li>
+				<a href="<%= url_for controller: 'application', action: 'todo' %>">
+					<i class="icon-binoculars icon"></i> <%= raw I18n.t('navigation.todo') %>
+				</a>
+			</li>
+		  	<li>
+				<a href="<%= url_for controller: 'application', action: 'contact' %>">
+					<i class="icon-mail icon"></i>
+					<%= raw I18n.t('navigation.contact') %>
+				</a>
+			</li>
+
+			<li>
+				<a href="<%= params[:locale] == 'en' ? '/fr/' : '/en/' %>">
+					<i class="icon-chat icon"></i>
+					<%= params[:locale] == 'en' ? 'Français' : 'English' %>
+				</a>
+			</li>
 		</ul>
 	</div>
 </nav>

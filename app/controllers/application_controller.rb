@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
 
 	before_action :set_locale
 
@@ -12,33 +11,41 @@ class ApplicationController < ActionController::Base
 	end
 
 	def studios
-		@title= "Nos Studios"
+		@title= I18n.t('navigation.studios')
 		@img_folder = "studios"
 		render :layout => "inner"
 	end
 
 	def apartments
-		@title= "Nos Appartements"
+		@title= I18n.t('navigation.apartments')
 		@img_folder = "apartments"
 		render :layout => "inner"
 	end
 
 	def contact
-		@title= "Contact Us"
+		@title= I18n.t('navigation.contact')
 		@img_folder = "contact"
 		render :layout => "inner"
 	end
 
 	def services
-		@title= "Nos Services"
+		@title= I18n.t('navigation.services')
 		@img_folder = "services"
 		render :layout => "inner"
 	end
 
 	def todo
-		@title= "Things to do"
+		@title= I18n.t('navigation.todo')
 		@img_folder = "todo"
 		render :layout => "inner"
+	end
+
+	def send_email
+		@title= I18n.t('navigation.contact')
+		@img_folder = "contact"
+		InfoMailer.contact_request(params[:sender_name], params[:sender_email], params[:sender_phone], params[:sender_message]).deliver_now
+		flash[:sent] = 'You eaeasasd'
+		redirect_to "/#{params[:locale]}/contact-us"
 	end
 
 end
