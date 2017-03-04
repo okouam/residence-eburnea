@@ -60,7 +60,7 @@ Rails.application.configure do
    :port => "587",
    :domain => "residence-eburnea.com",
    :user_name => "info@residence-eburnea.com",
-   :password => "/JY@M2@82QGhNFk747n",
+   :password => "rBc}3K72962q",
    :authentication => "plain",
    :enable_starttls_auto => true
  }

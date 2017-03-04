@@ -7,7 +7,7 @@ fr:
         contact: Nous Contacter
         services: Nos Services
     welcome:
-        founder_description: Founder of Residence Eburnea
+        founder_description: Gérante de la Résidence Eburnéa
         founder_name: Madame Kouame
         testimonial: |
             &ldquo;This place is great-- almost afraid to list it. small hotel in very chill neighborhood close to NGOs in Cocody.
@@ -135,3 +135,5 @@ fr:
         sender_message: Votre message
         sender_email: Votre adresse mail
         sender_phone: Votre portable
+        send: Envoyer
+        message_sent: Merci, votre message a été envoyé.

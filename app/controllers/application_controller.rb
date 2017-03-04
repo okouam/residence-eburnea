@@ -44,7 +44,7 @@ class ApplicationController < ActionController::Base
 		@title= I18n.t('navigation.contact')
 		@img_folder = "contact"
 		InfoMailer.contact_request(params[:sender_name], params[:sender_email], params[:sender_phone], params[:sender_message]).deliver_now
-		flash[:sent] = 'You eaeasasd'
+		flash[:sent] = I18n.t('contact.message_sent')
 		redirect_to "/#{params[:locale]}/contact-us"
 	end
 

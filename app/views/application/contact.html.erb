@@ -23,7 +23,7 @@
 	<% else %>
 
 	<div class="contact-form" style="flex: 1; padding-right: 120px">
-		<h3><%= raw I18n.t('contact.form_title') %></h3>
+
 		<form action="/contact" method="post">
 			<div>
 				<label><%= raw I18n.t('contact.sender_name') %></label>
@@ -43,13 +43,12 @@
 			</div>
 			<div>
 			<input type="hidden" name="locale" value="<%= params[:locale] %>" />
-			<input type="submit" />
+			<input type="submit" value="<%= raw I18n.t('contact.send') %>" />
 			</div>
 		</form>
 	</div>
 
 	<div class="map" style='flex: 1'>
-		<h3><%= raw I18n.t('contact.map_title') %></h3>
 		<img src="/img/contact/map.jpg" style="border: 1px solid #444"/>
 	</div>
 

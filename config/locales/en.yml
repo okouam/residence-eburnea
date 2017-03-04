@@ -30,9 +30,8 @@ en:
                 <li>d’un double sofa convertible en lit</li>
             </ul>
         main_text: |
-            <p>Une caution de 100.000 Fcfa pour les studios ou de 150.000 Fcfa pour les appartements est obligatoire afin de confirmer la
-            réservation, celle-ci sera remboursée après état des lieux en fin de séjour. Tarifs dégressifs pour long séjours. Nous acceptons
-            les paiements en espèces ( CFA &amp; Euros) et par carte VISA.</p>
+            <p>A mandatory deposit of 100,000 FCFA is required to reserve a studio room which will be refunded upon a room check at the end of the stay.
+            Discounted prices are avaiable for long stays. We accept cash (FCFA and EUR) and VISA card payments.</p>
     apartments:
         title: Our Apartments
         carousel_column: |
@@ -126,3 +125,5 @@ en:
         sender_message: Message
         sender_email: Email
         sender_phone: Mobile Telephone
+        send: Submit
+        message_sent: Thank you, your message has been sent. 
