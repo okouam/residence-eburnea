@@ -9,6 +9,7 @@ class HomeController < ActionController::Base
 
 
 	def index
+    @title = I18n.t('navigation.home')
 		render :layout => false
 	end
 
