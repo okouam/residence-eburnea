@@ -1,7 +1,7 @@
 en:
     navigation:
         todo: Things to do
-        home: Home
+        home: Welcome
         studios: Studios
         apartments: Apartments
         contact: Contact us
@@ -126,4 +126,4 @@ en:
         sender_email: Email
         sender_phone: Mobile Telephone
         send: Submit
-        message_sent: Thank you, your message has been sent. 
+        message_sent: Thank you, your message has been sent.

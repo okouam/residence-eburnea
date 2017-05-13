@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
 
 	def home
 		render :layout => false
+    @img_folder = "home"
 	end
 
 	def studios
@@ -25,7 +26,7 @@ class ApplicationController < ActionController::Base
 	def contact
 		@title= I18n.t('navigation.contact')
 		@img_folder = "contact"
-		render :layout => "inner"
+		render :layout => "inner.with.map"
 	end
 
 	def services

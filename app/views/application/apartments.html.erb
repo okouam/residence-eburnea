@@ -1,44 +1,17 @@
-
-<style type="text/css">
-
-	.carousel img {
-		height: 400px;
-		width: 600px;
-		border: 1px solid #999;
-	}
-
-	.carousel {
-		width: 600px;
-		height: 400px;
-	}
-
-	.amenities ul li {
-	 	margin-bottom: 10px;
-		font-weight: 300;
-		color: #4A3D33;
-		background: #fff
-	}
-
-	.slick-slide
-	{
-	width: 600px;
-	}
-
-</style>
+<%= stylesheet_link_tag "apartments", media: "all" %>
 
 <div style="display: flex">
-
 	<div style="flex: 1">
 		<div class="carousel">
-		  	<div><img src="/img/apartments/carousel_2.jpg" /></div>
-		  	<div><img src="/img/apartments/carousel_3.jpg" /></div>
+      <div><img src="/img/apartments/carousel_2.jpg" /></div>
+		  <div><img src="/img/apartments/carousel_3.jpg" /></div>
 			<div><img src="/img/apartments/carousel_1.jpg" /></div>
-		  	<div><img src="/img/apartments/carousel_4.jpg" /></div>
+		  <div><img src="/img/apartments/carousel_4.jpg" /></div>
 			<div><img src="/img/apartments/carousel_5.jpg" /></div>
 		</div>
 	</div>
 
-	<div class="amenities" style='flex: 1; padding-left: 60px;'><%= raw I18n.t('apartments.carousel_column') %></div>
+	<div class="amenities"><%= raw I18n.t('apartments.carousel_column') %></div>
 
 </div>
 

@@ -1,7 +1,7 @@
 fr:
     navigation:
         todo: Nos Loisirs
-        home: Accueil
+        home: Bienvenue
         studios: Nos Studios
         apartments: Nos Appartements
         contact: Nous Contacter
@@ -14,56 +14,49 @@ fr:
             Has a pool and restaurant. The staff is very friendly and you'll really feel at home here.&rdquo;
         title: Welcome
         body: |
-            <p>Pour vos séjours à Abidjan dans un cadre professionel ou prive, de courte ou longue duree, seul ou en famille, choisissez la liberte, le confort et la convivialite d'un espace propre et acceuillant. La Residence Eburnea est située a 15 minutes du centre ville dans le quartier residentiel des Deux Plateaux 7eme tranche et a deux pas du Boulevard Latrille proches des commerces et des restaurants, Soucieux de votre bien etre, nous vous reservons un acceuil personalise et mettrons tout en oeuvre pour vos offrir un sejour des plus agreables.</p>
+            <p>Pour vos séjours professionnels ou privés, à Abidjan, de courte ou longue durée, seul ou en famille,  choisissez le confort  et la convivialité d’un espace propre et accueillant, la RESIDENCE EBURNEA.  La Résidence  est située à Cocody -les deux plateaux, 7ème tranche,  non loin du Boulevard Latrille et de la Rue des Jardins, proche des commerces et des restaurants. Soucieux de votre bien-être, nous vous réservons un accueil personnalisé et nous mettons tout en œuvre  pour vous offrir un séjour des plus agréables.</p>
     studios:
         title: Our Studios
         carousel_column: |
-            <p>Les unités décorées avec goût disposent:</p>
+            <p>Nos appartements sont décorés avec goût et disposent des facilités et équipements suivants:</p>
             <ul>
-                <li>d’une cuisine équipée (gazinière avec four, réfrigérateur, vaisselle, etc.. )</li>
-                <li>de salle de bain avec baignoire</li>
-                <li>de toilettes séparées</li>
+                <li>Cuisine équipée (gazinière avec four, micro-onde, réfrigérateur, vaisselle, etc.)</li>
+                <li>Salle de bain avec baignoire</li>
+                <li>Terrasse individuelle</li>
                 <li>d’un séjour s’ouvrant sur une terrasse privative</li>
-                <li>d’une ligne téléphonique individuelle</li>
-                <li>Système Wifi: internet sans fil gratuit</li>
-                <li>de TV avec des chaines nationales et internationales</li>
-                <li>d’un double sofa convertible en lit</li>
+                <li>Système Wi Fi gratuit </li>
+                <li>TV avec des chaines nationales et internationales</li>
             </ul>
         main_text: |
-            <p>Une caution de 100.000 Fcfa pour les studios ou de 150.000 Fcfa pour les appartements est obligatoire afin de confirmer la
-            réservation, celle-ci sera remboursée après état des lieux en fin de séjour. Tarifs dégressifs pour long séjours. Nous acceptons
-            les paiements en espèces ( CFA &amp; Euros) et par carte VISA.</p>
+            <p>Tarifs dégressifs pour longs séjours. Nous acceptons les paiements en espèces (FRANCS CFA et EUROS) et par carte bancaire (MASTER CARD, VISA CARD, UNION PAY).</p>
     apartments:
         title: Our Apartments
         carousel_column: |
-            <p>Les unités décorées avec goût disposent:</p>
+            <p> Nos appartements sont décorés avec goût et disposent des facilités et équipements suivants:</p>
             <ul>
-                <li>d’une cuisine équipée (gazinière avec four, réfrigérateur, vaisselle, etc.. )</li>
-                <li>de salle de bain avec baignoire</li>
-                <li>de toilettes séparées</li>
-                <li>d’un séjour s’ouvrant sur une terrasse privative</li>
-                <li>d’une ligne téléphonique individuelle</li>
-                <li>Système Wifi: internet sans fil gratuit</li>
-                <li>de TV avec des chaines nationales et internationales</li>
-                <li>d’un double sofa convertible en lit</li>
+                <li>Cuisine équipée (gazinière avec four, micro-onde, réfrigérateur, vaisselle, etc.)</li>
+                <li>Salle de bain avec baignoire</li>
+                <li>Toilette  visiteurs séparée</li>
+                <li>Terrasse privée</li>
+                <li>Système Wi Fi gratuit</li>
+                <li>TV avec des chaines nationales et internationales</li>
+                <li>Double sofa  convertible en lit</li>
             </ul>
         main_text: |
-            <p>Une caution de 100.000 Fcfa pour les studios ou de 150.000 Fcfa pour les appartements est obligatoire afin de confirmer la réservation,
-            celle-ci sera remboursée après état des lieux en fin de séjour. Tarifs dégressifs pour long séjours. Nous acceptons les paiements en
-            espèces ( CFA &amp; Euros) et par carte VISA.</p>
+            <p>Tarifs dégressifs pour longs séjours. Nous acceptons les paiements en espèces (FRANCS CFA et EUROS) et par carte bancaire (MASTER CARD, VISA CARD, UNION PAY).</p>
     services:
         title: Our Services
         main_column_left: |
-            <p>Notre Résidence Hotelière propose les services suivants:</p>
+            <p>Notre Résidence hôtelière vous propose les services suivants:</p>
             <ul>
-                <li>Nettoyage quotidien de votre appartement ou Studio <br/>(hors cuisine et sauf le Dimanche)</li>
-                <li>Internet Wifi: (Sans fil) gratuit</li>
-                <li>Equipe de sécurité 24 H/24 et surveillance vidéo</li>
-                <li>Salle Internet avec PC à votre disposition</li>
+                <li>Nettoyage quotidien de votre studio ou appartement (hors vaisselle et sauf dimanche)</li>
+                <li>Wifi gratuit</li>
+                <li>Equipe de sécurité 24h sur 24</li>
+                <li>Terrasse privée</li>
                 <li>Piscine réservée aux résidents</li>
             </ul>
         main_column_right: |
-            <p>Certains services nécessitent un supplément.</p>
+            <p>Certains services nécessitent un supplément:</p>
             <ul>
                 <li>Blanchisserie - Repassage - Pressing</li>
                 <li>Service de secrétariat</li>
@@ -76,12 +69,12 @@ fr:
         breakfast_title: PETIT DEJEUNER
         breakfast_text: |
             <p>Vous pouvez déguster nos petits déjeuner composés de boissons chaudes accompagnées de pain croustillant, céréales, yaourts, un choix de pâtisserie,
-            confiture, miel, salade de fruits et jus d’orange au bord de la piscine ou en chambre de 7 H à 10 H.</p>
+            confiture, miel, fruits de saison et just de fruits frais au bord de la piscine ou en chambre de 7 H à 10 H.</p>
         lunch_and_dinner_title: DEJEUNER ET DINER
         lunch_and_dinner_text: |
             <p>Ouvert de 12 H 00 à 22 H 00, le Restaurant/Bar vous propose des mets européens et des spécialités locales. Vous serez servis dans un cadre chaleureux et
             une ambiance conviviale en bordure immédiate de la piscine où si vous le souhaitez, nous nous ferons un plaisir de vous servir dans votre appartement.</p>
-            <p>Le « chef » se tient à votre disposition pour la conception conjointe de vos menus si vous le désirez et vous fera découvrir les spécificités de la
+            <p>Le chef se tient à votre disposition pour la conception conjointe de vos menus si vous le désirez et vous fera découvrir les spécificités de la
             cuisine Ivoirienne.</p>
         snack_bar_title: SNACK-BAR
         snack_bar_text: |
@@ -94,16 +87,16 @@ fr:
         swimming_pool_title: La Piscine
         swimming_pool_text: |
             Située dans le jardin en face du restaurant/bar, elle vous aidera à vous relaxer tout en profitant des rafraîchissements proposés par le Bar.
-        other_activities_title: Autres Activites
+        other_activities_title: Autres Activités
         other_activities_text: |
             Vous aurez le choix de vous rendre dans les environs à quelques minutes de la Résidence EBURNEA :
         other_activities:
-            club_house_caption: Au Club House (Court de Tennis )
-            golf_club_caption: A l’Ivoire Golf club ( Parcours de golf de 9 et 18 trous)
+            club_house_caption: Club House (Court de tennis)
+            golf_club_caption: Ivoire Golf club (parcours de golf de 9 et 18 trous)
         tourist_visits_title: VISITES TOURISTIQUES ET EXCURSIONS
         abidjan:
             title: Abidjan
-            description: something here
+            description: 
             zoo_caption: Le zoo d’Abidjan
             banco_forest_caption: La forêt du banco
             national_museum_caption: Le musée national

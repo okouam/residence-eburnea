@@ -1,18 +1,4 @@
-<style type="text/css">
-	form div {
-		margin-bottom: 20px
-	}
-
-	form label {
-		margin-bottom: 5px;
-		display: inline-block;
-	}
-
-	h3 {
-		margin-bottom: 30px
-	}
-
-</style>
+<%= stylesheet_link_tag "contact", media: "all" %>
 
 <div style="display: flex">
 
@@ -46,10 +32,6 @@
 			<input type="submit" value="<%= raw I18n.t('contact.send') %>" />
 			</div>
 		</form>
-	</div>
-
-	<div class="map" style='flex: 1'>
-		<img src="/img/contact/map.jpg" style="border: 1px solid #444"/>
 	</div>
 
 	<% end %>
