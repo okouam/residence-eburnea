@@ -15,23 +15,21 @@ en:
         title: Welcome
         body: |
             <p>For your stay in Abidjan for business or leisure,  short stays or long stays, alone or with family, choose the freedom, comfort and coziness of a clean and welcoming residence.</p>
-
             <p>The Résidence EBURNEA is located 15 minutes from the center of town in the residential area of Deux Plateaux 7ème tranche and two steps from the Latrille boulevard close to shops and restaurants.</p>
-
             <p>Your peace of mind is important to us, and we promise you a personalized welcome and will make every effort to offer you a most agreeable stay</p>
     studios:
         title: Our Studios
         carousel_column: |
             <p>Les unités décorées avec goût disposent:</p>
             <ul>
-                <li>d’une cuisine équipée (gazinière avec four, réfrigérateur, vaisselle, etc.. )</li>
-                <li>de salle de bain avec baignoire</li>
-                <li>de toilettes séparées</li>
-                <li>d’un séjour s’ouvrant sur une terrasse privative</li>
-                <li>d’une ligne téléphonique individuelle</li>
-                <li>Système Wifi: internet sans fil gratuit</li>
-                <li>de TV avec des chaines nationales et internationales</li>
-                <li>d’un double sofa convertible en lit</li>
+                <li>a fully furnished kitchenette (with cooker, oven, fridge, dishes..)</li>
+                <li>bathroom with bathtubs</li>
+                <li>separate toilets</li>
+                <li>a lounge opening onto a private terrace</li>
+                <li>direct phone lines</li>
+                <li>free wi-fi</li>
+                <li>local and international tv channels</li>
+                <li>a convertible double sofa (can be used as an additional bed)</li>
             </ul>
         main_text: |
             <p>A mandatory deposit of 100,000 FCFA is required to reserve a studio room which will be refunded upon a room check at the end of the stay.
@@ -42,7 +40,7 @@ en:
             <p>Our stylish rooms are equipped with:</p>
             <ul>
                 <li>a fully furnished kitchenette (with cooker, oven, fridge, dishes..)</li>
-                <li>bathroom with bathtubs </li>
+                <li>bathroom with bathtubs</li>
                 <li>separate toilets</li>
                 <li>a lounge opening onto a private terrace</li>
                 <li>direct phone lines</li>
