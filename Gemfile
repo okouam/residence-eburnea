@@ -10,6 +10,7 @@ gem 'rails', '~> 5.0.1'
 gem 'puma', '~> 3.0'
 gem 'slim-rails'
 gem 'sass-rails'
+gem 'heroku-deflater', :group => :production
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
