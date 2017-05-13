@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+	self.page_cache_directory = -> { Rails.root.join("public", request.domain) }
 
 	before_action :set_locale
 
