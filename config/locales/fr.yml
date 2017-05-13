@@ -14,7 +14,9 @@ fr:
             Has a pool and restaurant. The staff is very friendly and you'll really feel at home here.&rdquo;
         title: Welcome
         body: |
-            <p>Pour vos séjours professionnels ou privés, à Abidjan, de courte ou longue durée, seul ou en famille,  choisissez le confort  et la convivialité d’un espace propre et accueillant, la RESIDENCE EBURNEA.  La Résidence  est située à Cocody -les deux plateaux, 7ème tranche,  non loin du Boulevard Latrille et de la Rue des Jardins, proche des commerces et des restaurants. Soucieux de votre bien-être, nous vous réservons un accueil personnalisé et nous mettons tout en œuvre  pour vous offrir un séjour des plus agréables.</p>
+            <p>Pour vos séjours professionnels ou privés, à Abidjan, de courte ou longue durée, seul ou en famille,  choisissez le confort  et la convivialité d’un espace propre et accueillant, la RESIDENCE EBURNEA. </p>
+            <p> La Résidence est située à Cocody-Les Deux Plateaux, 7ème tranche,  non loin du Boulevard Latrille et de la Rue des Jardins, proche des commerces et des restaurants. </p>
+            <p>Soucieux de votre bien-être, nous vous réservons un accueil personnalisé et nous mettons tout en œuvre  pour vous offrir un séjour des plus agréables.</p>
     studios:
         title: Our Studios
         carousel_column: |
@@ -96,7 +98,7 @@ fr:
         tourist_visits_title: VISITES TOURISTIQUES ET EXCURSIONS
         abidjan:
             title: Abidjan
-            description: 
+            description:
             zoo_caption: Le zoo d’Abidjan
             banco_forest_caption: La forêt du banco
             national_museum_caption: Le musée national

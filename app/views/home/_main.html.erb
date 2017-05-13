@@ -6,7 +6,7 @@
 
 	main .welcome h1 {
 			border: 2px solid #7CC89D;
-			font-size: 32px; position: relative; top: -60px; width: 170px; padding: 12px; font-weight: 700;  background-color: #7CC89D; border-radius: 10px; opacity: 0.9;  color: white
+			font-size: 32px; position: relative; top: -60px; display:inline-block; padding: 12px; font-weight: 700;  background-color: #7CC89D; border-radius: 10px; opacity: 0.9;  color: white
 	}
 
 	main .media__body.intro {
@@ -33,11 +33,6 @@
 			<div class="media__body intro">
 				<%= raw I18n.t('welcome.testimonial') %><br/><br/>
 				<%= render "tripadvisor" %>
-			</div>
-			<div class="media__img">
-				<div class="circle"><img src="/img/home/JOSETTE.jpg" class="media__img" /></div>
-				<h4 class="center"><%= I18n.t('welcome.founder_name') %></h4>
-				<p class="center"><%= I18n.t('welcome.founder_description') %></p>
 			</div>
 			<div class="media__body"><%= raw I18n.t('welcome.body') %></div>
 		</div>
