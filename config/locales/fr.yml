@@ -61,8 +61,6 @@ fr:
             <p>Certains services nécessitent un supplément:</p>
             <ul>
                 <li>Blanchisserie - Repassage - Pressing</li>
-                <li>Service de secrétariat</li>
-                <li>Organisation de vos déplacements</li>
                 <li>Billetterie - Réservations de spectacles</li>
                 <li>Location de voitures</li>
                 <li>Excursions</li>
@@ -71,11 +69,11 @@ fr:
         breakfast_title: PETIT DEJEUNER
         breakfast_text: |
             <p>Vous pouvez déguster nos petits déjeuner composés de boissons chaudes accompagnées de pain croustillant, céréales, yaourts, un choix de pâtisserie,
-            confiture, miel, fruits de saison et just de fruits frais au bord de la piscine ou en chambre de 7 H à 10 H.</p>
+            confiture, miel, fruits de saison et jus de fruits frais au bord de la piscine ou en chambre de 7 H à 10 H.</p>
         lunch_and_dinner_title: DEJEUNER ET DINER
         lunch_and_dinner_text: |
             <p>Ouvert de 12 H 00 à 22 H 00, le Restaurant/Bar vous propose des mets européens et des spécialités locales. Vous serez servis dans un cadre chaleureux et
-            une ambiance conviviale en bordure immédiate de la piscine où si vous le souhaitez, nous nous ferons un plaisir de vous servir dans votre appartement.</p>
+            une ambiance conviviale en bordure immédiate de la piscine ou si vous le souhaitez, nous nous ferons un plaisir de vous servir dans votre appartement.</p>
             <p>Le chef se tient à votre disposition pour la conception conjointe de vos menus si vous le désirez et vous fera découvrir les spécificités de la
             cuisine Ivoirienne.</p>
         snack_bar_title: SNACK-BAR
@@ -83,7 +81,7 @@ fr:
             <p>Nous vous recommandons nos cocktails maison à savourer dans un cadre agréable et chaleureux.</p>
         meals_title: RESTAURATION
         meals_text: |
-            <p>Vous pouvez choisir de cuisiner, de vous faire livrer vos plats préférés ou de vous restaurer dans notre charmant restaurant au bord de la piscine.</p>
+            <p>Vous pouvez choisir de cuisiner, de vous faire livrer vos plats préférés en chambre ou de vous restaurer dans notre charmant restaurant au bord de la piscine.</p>
     todo:
         title: Things To Do
         swimming_pool_title: La Piscine
