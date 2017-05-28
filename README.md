@@ -15,7 +15,7 @@ Things you may want to cover:
 
 * Database initialization
 
-* How to run the test sfuite
+* How to run the test suites
 
 * Services (job queues, cache servers, search engines, etc.)
 
