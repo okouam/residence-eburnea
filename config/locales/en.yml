@@ -24,16 +24,13 @@ en:
             <ul>
                 <li>a fully furnished kitchenette (with cooker, oven, fridge, dishes..)</li>
                 <li>bathroom with bathtubs</li>
-                <li>separate toilets</li>
-                <li>a lounge opening onto a private terrace</li>
-                <li>direct phone lines</li>
+                <li>private terrace</li>
                 <li>free wi-fi</li>
                 <li>local and international tv channels</li>
-                <li>a convertible double sofa (can be used as an additional bed)</li>
             </ul>
         main_text: |
             <p>A mandatory deposit of 100,000 FCFA is required to reserve a studio room which will be refunded upon a room check at the end of the stay.
-            Discounted prices are avaiable for long stays. We accept cash (FCFA and EUR) and VISA card payments.</p>
+            Discounted prices are available for long stays. We accept cash (FCFA and EUR) and card payments (MASTER CARD, VISA CARD, UNION PAY).</p>
     apartments:
         title: Our Apartments
         carousel_column: |
@@ -43,20 +40,19 @@ en:
                 <li>bathroom with bathtubs</li>
                 <li>separate toilets</li>
                 <li>a lounge opening onto a private terrace</li>
-                <li>direct phone lines</li>
                 <li>free wi-fi throughout the building</li>
                 <li>local and international tv channels</li>
                 <li>a convertible double sofa (can be used as an additional bed)</li>
             </ul>
         main_text: |
-            <p>A mandatory deposit of 100,000 FCFA is required to reserve a studio room which will be refunded upon a room check at the end of the stay.
-            Discounted prices are avaiable for long stays. We accept cash (FCFA and EUR) and VISA card payments.</p>
+            <p>A mandatory deposit of 150,000 FCFA is required to reserve a studio room which will be refunded upon a room check at the end of the stay.
+            Discounted prices are available for long stays. We accept cash (FCFA and EUR) and card payments (MASTER CARD, VISA CARD, UNION PAY).</p>
     services:
         title: Our Services
         main_column_left: |
             <p>Our establishement offers the following services: </p>
             <ul>
-                <li>Daily cleanining of studio or appartement (excluding the kitchen area and not on Sundays)</li>
+                <li>Daily cleanining of studio or appartement (excluding dishwashing and Sundays)</li>
                 <li>free wi-fi throughout the building</li>
                 <li>24/7 Security guards and video surveillance</li>
                 <li>guest only swimming pool</li>
@@ -94,7 +90,7 @@ en:
         tourist_visits_title: VISITES TOURISTIQUES ET EXCURSIONS
         abidjan:
             title: Abidjan
-            description: something here
+            description:
             zoo_caption: Abidjan Zoo
             banco_forest_caption: Banco Forest
             national_museum_caption: National Museum
@@ -103,7 +99,7 @@ en:
             museum_of_civilizations_caption: Museum of Civilisations (Abidjan)
             botanical_garden_caption: Botanical Gardens of Bingerville
             governor_palace_caption: Governor’s Palace (Grand Bassam)
-            bus_boat_caption: Boat trips along the Lagunes (Ile Boulaym Baie des milliardaires, Serpent island)
+            bus_boat_caption: Boat trips along the Lagunes (Ile Boulay, Baie des milliardaires, Serpent island)
         grand_bassam:
             title: Grand Bassam (approx 35 km from Abidjan)
             description: |
@@ -111,12 +107,12 @@ en:
             national_costume_museum_caption: National Costume Museum
             art_centres_caption: Handicraft Centres
         yamoussoukro:
-            title: Yamoussoukro (approx 260 km from Abidjan)
+            title: Yamoussoukro (approx 235 km from Abidjan)
             description:
                 Must-see sites in the political capital of Cote d'Ivoire
             basilic_caption: Basilica Our Lady Of Peace
             great_schools_caption: Grandes Ecoles (Universities)
-            foundation_caption: Houphouet-Boigny
+            foundation_caption: Houphouet-Boigny Foundation
             lake_caption: Le Lac aux caîmans
     contact:
         title: Contact Us
