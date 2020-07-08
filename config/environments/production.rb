@@ -71,8 +71,8 @@ Rails.application.configure do
 	 :address => "smtp.gmail.com",
 	 :port => "587",
 	 :domain => "residence-eburnea.com",
-	 :user_name => "info@residence-eburnea.com",
-	 :password => "rBc}3K72962q",
+	 :user_name => "web@residence-eburnea.com",
+	 :password => "%wCbsA4DfWAXovd2",
 	 :authentication => "plain",
 	 :enable_starttls_auto => true
  }
