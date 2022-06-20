@@ -11,4 +11,4 @@ Rails.application.config.assets.version = "1.0"
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 
-Rails.application.config.assets.precompile += %w( search.js apartments.sass services.sass contact.sass studios.sass todo.sass)
+Rails.application.config.assets.precompile += ["manifest.js"]

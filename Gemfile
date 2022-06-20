@@ -9,6 +9,7 @@ gem "actionpack-page_caching"
 gem 'rails'
 gem 'slim-rails'
 gem 'sass-rails'
+gem 'puma'
 gem 'heroku-deflater', :group => :production
 
 group :development, :test do

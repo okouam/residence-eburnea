@@ -27,7 +27,7 @@ class ApplicationController < ActionController::Base
 	def contact
 		@title= I18n.t('navigation.contact')
 		@img_folder = "contact"
-		render :layout => "inner.with.map"
+		render :layout => "map"
 	end
 
 	def services
