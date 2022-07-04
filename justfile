@@ -3,3 +3,6 @@ default:
 
 run: 
 	overmind start
+
+deploy: 
+	fly deploy
