@@ -31,6 +31,7 @@ en:
         main_text: |
             <p>A mandatory deposit of 100,000 FCFA is required to reserve a studio room which will be refunded upon a room check at the end of the stay.
             Discounted prices are available for long stays. We accept cash (FCFA and EUR) and card payments (MASTER CARD, VISA CARD, UNION PAY).</p>
+            <p>Studio: 50 000 F CFA /Day</p>
     apartments:
         title: Our Apartments
         carousel_column: |
@@ -47,6 +48,7 @@ en:
         main_text: |
             <p>A mandatory deposit of 150,000 FCFA is required to reserve a studio room which will be refunded upon a room check at the end of the stay.
             Discounted prices are available for long stays. We accept cash (FCFA and EUR) and card payments (MASTER CARD, VISA CARD, UNION PAY).</p>
+            <p>Apartment: 65 000 F CFA /Day</p>
     services:
         title: Our Services
         main_column_left: |
@@ -66,10 +68,10 @@ en:
             </ul>
         breakfast_title: BREAKFAST
         breakfast_text: |
-            <p>Start the day with a delicious breakfast.</p>
+            <p>Start the day with a delicious breakfast between 07h00 and 10h30.</p>
         lunch_and_dinner_title: LUNCH AND DINNER
         lunch_and_dinner_text: |
-            <p>Open from 12h00 to 22h00 our restaurant/bar offers you both local specialties and european dishes.</p>
+            <p>Open from 12h00 to 21h00 our restaurant/bar offers you both local specialties and european dishes.</p>
         snack_bar_title: SNACK-BAR
         snack_bar_text: |
             <p>Have a delicious cocktail and enjoy your surroundings.</p>

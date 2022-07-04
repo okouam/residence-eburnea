@@ -30,6 +30,7 @@ fr:
             </ul>
         main_text: |
             <p>Tarifs dégressifs pour longs séjours. Nous acceptons les paiements en espèces (FRANCS CFA et EUROS) et par carte bancaire (MASTER CARD, VISA CARD, UNION PAY).</p>
+            <p>Studio: 50 000 F CFA/Jour</p>
     apartments:
         title: Our Apartments
         carousel_column: |
@@ -45,6 +46,7 @@ fr:
             </ul>
         main_text: |
             <p>Tarifs dégressifs pour longs séjours. Nous acceptons les paiements en espèces (FRANCS CFA et EUROS) et par carte bancaire (MASTER CARD, VISA CARD, UNION PAY).</p>
+             <p>Appartement: 65 000 F CFA/Jour</p>
     services:
         title: Our Services
         main_column_left: |
@@ -68,10 +70,10 @@ fr:
         breakfast_title: PETIT DEJEUNER
         breakfast_text: |
             <p>Vous pouvez déguster nos petits déjeuner composés de boissons chaudes accompagnées de pain croustillant, céréales, yaourts, un choix de pâtisserie,
-            confiture, miel, fruits de saison et jus de fruits frais au bord de la piscine ou en chambre de 7 H à 10 H.</p>
+            confiture, miel, fruits de saison et jus de fruits frais au bord de la piscine ou en chambre de 7 H à 10 H 30.</p>
         lunch_and_dinner_title: DEJEUNER ET DINER
         lunch_and_dinner_text: |
-            <p>Ouvert de 12 H 00 à 22 H 00, le Restaurant/Bar vous propose des mets européens et des spécialités locales. Vous serez servis dans un cadre chaleureux et
+            <p>Ouvert de 12 H 00 à 21 H 00, le Restaurant/Bar vous propose des mets européens et des spécialités locales. Vous serez servis dans un cadre chaleureux et
             une ambiance conviviale en bordure immédiate de la piscine ou si vous le souhaitez, nous nous ferons un plaisir de vous servir dans votre appartement.</p>
             <p>Le chef se tient à votre disposition pour la conception conjointe de vos menus si vous le désirez et vous fera découvrir les spécificités de la
             cuisine Ivoirienne.</p>

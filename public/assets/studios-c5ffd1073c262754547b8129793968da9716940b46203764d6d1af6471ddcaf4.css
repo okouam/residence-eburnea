@@ -1,0 +1,25 @@
+/* line 1, app/assets/stylesheets/studios.sass */
+.carousel img {
+  height: 400px;
+  width: 600px;
+  border: 1px solid #999;
+}
+
+/* line 6, app/assets/stylesheets/studios.sass */
+.carousel {
+  width: 600px;
+  height: 400px;
+}
+
+/* line 10, app/assets/stylesheets/studios.sass */
+.amenities ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #4A3D33;
+  background: #fff;
+}
+
+/* line 16, app/assets/stylesheets/studios.sass */
+.slick-slide {
+  width: 600px;
+}

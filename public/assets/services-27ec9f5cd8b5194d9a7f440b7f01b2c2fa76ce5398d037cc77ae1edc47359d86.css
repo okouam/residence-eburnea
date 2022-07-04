@@ -1,0 +1,32 @@
+/* line 1, app/assets/stylesheets/services.sass */
+main ul li {
+  margin-top: 20px;
+  font-weight: 300;
+  color: #4A3D33;
+  background: #fff;
+}
+
+/* line 7, app/assets/stylesheets/services.sass */
+.flexbox {
+  display: flex;
+}
+
+/* line 10, app/assets/stylesheets/services.sass */
+.meals .panel {
+  flex: 1;
+  padding: 20px;
+}
+
+/* line 14, app/assets/stylesheets/services.sass */
+.meals .panel img {
+  border: 2px solid #7CC89D;
+}
+
+/* line 17, app/assets/stylesheets/services.sass */
+.divider {
+  border: 1px solid #7CC89D;
+  border-width: 1px;
+  height: 1px;
+  border-bottom-width: 0;
+  margin-bottom: 40px;
+}
